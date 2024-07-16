@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.top {
+    display: flex;
+}
+
+.right-links {
+    display: flex;
+}
+
+.left-links {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
