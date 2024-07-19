@@ -52,6 +52,10 @@ ul {
     display: flex;
     background-color: grey;
     padding: 60px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
 }
 
 .right-links {
@@ -93,10 +97,8 @@ ul {
 }
 
 .intro {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 50px;
+    text-align: center;
+    padding: 10px 60px 100px;
 }
 
 .sign-up {
@@ -106,6 +108,7 @@ ul {
     color: #F9FAF8;
     padding: 50px;
     margin: 100px;
+    display: flex;
 }
 
 .title {
@@ -116,4 +119,47 @@ ul {
     font-size: 36px;
     font-style: italic;
     color: #1F2937
+}
+
+.button {
+    background: #3882F6;
+    border: #F9FAF8;
+    border-radius: 8px;
+    padding: 4px 16px;
+    text-align: center;
+}
+
+.top .button {
+    width: 60px;
+}
+
+.sign-up .button {
+    border: 1px solid #F9FAF8;
+    height: 16px;
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    border: 2px solid #3882F6;
+    padding: 16px;
+    border-radius: 8px;
+    height: 80px;
+    width: 80px;
+}
+
+.caption {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.card {
+    width: 80px;
 }
