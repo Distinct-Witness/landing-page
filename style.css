@@ -41,7 +41,7 @@ ul {
     gap: 16px;
 }
 
-.top {
+.blue-space {
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
@@ -66,10 +66,18 @@ ul {
     display: flex;
 }
 
-.container {
+.white-space {
     display: flex;
     flex-direction: column;
     background-color: white;
+}
+
+.center-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 
 .quote {
@@ -78,7 +86,8 @@ ul {
     font-family: 'light italic';
     color: #1F2937;
     justify-content: space-around;
-    padding: 100px;
+    padding: 0px;
+    margin-top: 160px;
 }
 
 .attribution {
@@ -97,17 +106,20 @@ ul {
 }
 
 .intro {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding: 10px 60px 100px;
+    flex-shrink: 0;
 }
 
 .sign-up {
     background-color: #3882F6;
-    font-size: 36px;
-    font-weight: bolder;
     color: #F9FAF8;
-    padding: 50px;
-    margin: 100px;
+    border-radius: 4px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px;
+    height: 100px;
     display: flex;
 }
 
@@ -127,18 +139,11 @@ ul {
     border-radius: 8px;
     padding: 4px 16px;
     text-align: center;
-}
-
-.top .button {
     width: 60px;
 }
 
 .sign-up .button {
     border: 1px solid #F9FAF8;
-    height: 16px;
-    font-size: 20px;
-    padding: 12px;
-    text-align: center;
 }
 
 .image {
@@ -148,6 +153,7 @@ ul {
     border-radius: 8px;
     height: 80px;
     width: 80px;
+    margin: 8px;
 }
 
 .caption {
@@ -156,10 +162,16 @@ ul {
 
 .cards {
     display: flex;
-    justify-content: center;
-    gap: 70px;
+    justify-content: space-between;
 }
 
 .card {
-    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+}
+
+p {
+    margin: 0px;
 }
